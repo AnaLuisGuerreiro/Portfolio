@@ -1,0 +1,121 @@
+:root {
+  --background-color: #ebf0f4;
+  --pink-color: rgb(247, 180, 167);
+  --pink-color-opacity: rgb(247, 180, 167, 0.2);
+  --principal-blue: #5ce0e5;
+  --text-blue: #245c60;
+  --text-dark-color: #322e2e;
+  --dark-color-opacity: rgba(50, 46, 46, 0.2);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap");
+
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto Mono", monospace;
+  color: var(--text-dark-color);
+  max-width: 100%;
+}
+nav {
+  font-size: 20px;
+}
+h1 {
+  margin-top: 50px;
+}
+h2 {
+  color: var(--text-blue);
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: var(--pink-color-opacity);
+}
+.container-nav {
+  max-width: 1300px;
+}
+
+/* main */
+.hero {
+  padding: 50px;
+  max-width: 1300px;
+}
+.hello {
+  overflow: hidden;
+  font-size: 70px;
+  color: var(--text-blue);
+  border-right: 0.15em solid var(--principal-blue);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--principal-blue);
+  }
+}
+
+.resume,
+.contact {
+  background-color: var(--pink-color) !important;
+  color: var(--text-dark-color) !important;
+  border: 1px solid var(--text-blue) !important;
+}
+
+/* More about me */
+.more_about {
+  padding: 40px;
+  margin-top: 50px;
+  background-color: var(--dark-color-opacity);
+}
+.foto_second {
+  max-width: 300px;
+  border-radius: 40px;
+  box-shadow: 60px 0 var(--text-dark-color);
+}
+
+/* Skills */
+.skills_section {
+  margin-top: 150px;
+}
+.skills button {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+/* Projects */
+.latest_projects {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+.logo_footer {
+  width: 130px;
+  margin-top: 20px;
+}
+.icons {
+  margin-right: 40px;
+}
+.icons i {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+.coded {
+  padding-bottom: 15px;
+  margin-right: 20px;
+}
