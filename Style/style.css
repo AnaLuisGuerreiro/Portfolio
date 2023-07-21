@@ -42,7 +42,7 @@ footer {
 }
 .hello {
   overflow: hidden;
-  font-size: 70px;
+  font-size: 55px;
   color: var(--text-blue);
   border-right: 0.15em solid var(--principal-blue);
   white-space: nowrap;
@@ -91,15 +91,28 @@ footer {
 .skills_section {
   margin-top: 150px;
 }
+.skills {
+  margin-top: 50px;
+}
 .skills button {
   padding-inline-start: 20px;
   padding-inline-end: 20px;
+}
+.btn-secondary {
+  background-color: var(--text-dark-color);
+}
+.btn-secondary:hover {
+  color: var(--principal-blue);
+  background-color: var(--background-color);
 }
 
 /* Projects */
 .latest_projects {
   margin-top: 100px;
   margin-bottom: 50px;
+}
+.projects {
+  margin-top: 60px;
 }
 
 /* Footer */
