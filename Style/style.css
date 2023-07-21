@@ -104,6 +104,15 @@ footer {
 .btn-secondary:hover {
   color: var(--principal-blue);
   background-color: var(--background-color);
+  cursor: revert;
+}
+.react {
+  background-color: rgb(50, 46, 46, 0.8);
+}
+.react:hover {
+  background-color: rgb(50, 46, 46, 0.8);
+  color: white;
+  cursor: revert;
 }
 
 /* Projects */
