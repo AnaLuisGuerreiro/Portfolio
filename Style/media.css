@@ -20,7 +20,6 @@
   .contact {
     position: absolute;
     margin-top: 180px;
-    margin-right: 108px;
   }
   .hero {
     padding: 0;
@@ -53,8 +52,7 @@
   }
 
   .project {
-    display: flex;
-    justify-content: center;
+    margin-top: 30px;
   }
   .card {
     width: 450px !important;
@@ -90,5 +88,8 @@
   }
   .bg-img2 {
     background-size: 150px;
+  }
+  .world-clock {
+    margin-bottom: 20px;
   }
 }
