@@ -129,19 +129,11 @@ b {
   background-color: var(--background-color);
   cursor: revert;
 }
-.react {
-  background-color: rgb(50, 46, 46, 0.8);
-}
-.react:hover {
-  background-color: rgb(50, 46, 46, 0.8);
-  color: white;
-  cursor: revert;
-}
 
 /* Projects */
 .latest_projects {
   margin-top: 120px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 .project-img {
   height: 270px;
