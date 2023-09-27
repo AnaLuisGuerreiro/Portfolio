@@ -150,6 +150,9 @@ b {
   margin-bottom: 50px;
   margin-top: 70px;
 }
+.projects img {
+  height: 22rem;
+}
 
 /* Footer */
 .container-fluid {
